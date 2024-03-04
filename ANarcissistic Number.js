@@ -4,12 +4,10 @@ function narcissistic(value) {
     for (let i = 0; i < seperate.length; i++) {
       sum += Math.pow(seperate[i], seperate.length)
     }   
-    if (sum === value) {
-      return true
-    } else {
-      return false
-    }
+   return sum === value
   }
+  
+  narcissistic(153) 
   
 
 
